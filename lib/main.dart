@@ -6,12 +6,12 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.blueGrey[400],
         appBar: AppBar(
-        title: Text('Sea Shore'),
+        title: Text('I am Rich'),
         backgroundColor: Colors.blueGrey[900],
         ),
       body: Center(
         child: Image(
-          image: NetworkImage('https://www.whatsappimages.in/wp-content/uploads/2020/11/Boys-Free-Feeling-Sad-Pics-Images-Download.jpg'),
+          image: AssetImage('images/diamond.png'),
         ),
       ),
       ),
